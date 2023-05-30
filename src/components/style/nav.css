@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.nav-bar{
+    width:100%;
+    min-height:2.8rem;
+    background-color: rgb(22, 168, 156);
+    position: sticky;
+    top:0rem;
+    text-align: center;
+}
+
+.tasknav-bar{
+    width:100%;
+    min-height:2rem;
+    background-color: rgb(22, 168, 156);
+    position: sticky;
+    top:0rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tasknav-bar input{
+    position: absolute;
+    right:15rem;
+    top: 0.5rem;
+    border: none;
+    min-height: 2rem;
+    border-radius: 2rem;
+    padding: 5px;
+    
+}
+.Menubtn {
+    background-color: whitesmoke;
+    color: rgb(22, 168, 156);
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  
+  .Menu {
+    position: absolute;
+    right:5rem;
+    display: inline-block;
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2rem;
+  }
+  
+  .menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 2rem;
+  }
+  
+  .menu-content a:hover {background-color: rgb(22, 168, 156)}
+  
+  .Menu:hover .menu-content {
+    display: block;
+  }
+  
+  .Menu:hover .Menubtn {
+    background-color: white;
+  }
+

@@ -1,0 +1,33 @@
+.user-part{
+    width:500px;
+    min-height:20rem;
+    border:0.15rem solid rgb(20, 173, 161);
+    position:absolute;
+    top:7rem;
+    left:25rem;
+    text-align: center;
+    border-radius: 2rem;
+
+}
+.login-container label{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2.5rem;
+}
+.login-container input{
+    border-radius: 2rem;
+    min-height: 1rem;
+    padding: 0.5rem;
+}
+#submit-btn{
+    border:1px solid white;
+    background-color:rgb(22, 168, 156) ;
+    padding: 15px;
+    margin:2px;
+    width:7rem;
+    color:whitesmoke;
+    border-radius: 5rem;
+    font-weight: bold;
+    font-size: 15px;
+}
